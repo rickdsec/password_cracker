@@ -2,7 +2,6 @@ import argparse as ap
 import hashlib
 # Pyython parser om aangepaste argumenten te kunnen gebruiken.
 parser = ap.ArgumentParser(description='Dit is een simpele password cracker')
-parser = ap.ArgumentParser(description="My Script")
 #parser.add_argument("-h", "--help", help="Enter ")
 parser.add_argument("-w", "--wordlist", required=True, help="Enter here the wordlist you want to use")
 parser.add_argument("-p", "--passhash", required=True, help="Enter here your md5 hash password")
