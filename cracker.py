@@ -40,7 +40,7 @@ def main(wordlist, passhash):
     if flag == 0:
         print("Password is not in the list")
 
-# Roept de functie main op, als verbose is aangeven voert die een aangepaste versie aan anders de standaard crack.
+# Roept de functie main op, als verbose is aangeven voert die een aangepaste versie aan, anders de standaard crack.
 if __name__ == "__main__":
     #main(args.wordlist, args.passhash)
     crack = main(args.wordlist, args.passhash)
