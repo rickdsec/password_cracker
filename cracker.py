@@ -20,7 +20,7 @@ def main(wordlist, passhash):
         print("no file found")
         quit()
 
-    # Leest alle woorden in het txt bestand uit en slaat het op als hash in de var digest
+    # Leest alle woorden in het txt bestand uit en slaat het op als hash in de var verwerk
     for word in passwd_file:
 
         # Dit maakt van alle worden in het bestand een hash
