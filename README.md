@@ -1,8 +1,8 @@
 # Password Cracker
-Dit programma is bedoeld om snel een wachtwoord hash te kunnen vergelijken met een bestand vol wachtwoorden en hieruit een match vinden.  
+Dit programma is bedoeld om snel een wachtwoord hash te kunnen vergelijken met een bestand van wachtwoorden en hieruit een match vinden.  
 
 ## Wat kun je ermee?
-Met dit programma kun je in een bestand vol met wachtwoorden kijken of jou md5 hash overeen komt met een van de wachtwoorden in het bestand.
+Met dit programma kun je in een bestand met wachtwoorden kijken of jou md5 hash overeen komt met een van de wachtwoorden in het bestand.
 
 ## Troubleshooting 
 "-w" "--wordlist" help= Enter here the wordlist you want to use
